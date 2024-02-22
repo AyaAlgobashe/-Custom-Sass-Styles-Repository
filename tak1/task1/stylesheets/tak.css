@@ -1,0 +1,45 @@
+/* line 7, ../sass/tak.scss */
+body {
+  background-color: black;
+}
+
+/* line 11, ../sass/tak.scss */
+header h1 {
+  color: #6b6bab;
+  background-color: #e2cfcf;
+  height: 20%;
+}
+
+/* line 17, ../sass/tak.scss */
+#content {
+  height: 20%;
+  box-sizing: border-box;
+  border: 2px solid #6b6bab;
+  color: #e2cfcf;
+  padding: 20px;
+}
+/* line 24, ../sass/tak.scss */
+#content p {
+  border: 2px solid #6b6bab;
+  word-wrap: wrap;
+}
+
+/* line 30, ../sass/tak.scss */
+footer {
+  margin-top: 100px;
+  height: 30%;
+  border: 2px solid #368836;
+  color: #e2cfcf;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 38, ../sass/tak.scss */
+  header h1 {
+    font-size: 14px;
+  }
+
+  /* line 42, ../sass/tak.scss */
+  #content {
+    padding: 10px;
+  }
+}

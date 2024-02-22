@@ -1,0 +1,20 @@
+/* line 9, ../sass/tak.scss */
+#firstp {
+  border: 2px dashed #160303;
+  background-color: #699f9f;
+  padding: 30px;
+}
+
+/* line 15, ../sass/tak.scss */
+#secondp {
+  border: 2px solid #160303;
+  background-color: #ff9100;
+  padding: 30px;
+}
+
+/* line 22, ../sass/tak.scss */
+#thirdp {
+  border: 3px solid darkgreen;
+  background-color: #39ad39;
+  padding: 30px;
+}
